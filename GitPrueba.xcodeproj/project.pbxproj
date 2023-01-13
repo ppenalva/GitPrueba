@@ -11,6 +11,7 @@
 		6EA056382971B7F500F39AAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA056372971B7F500F39AAC /* ContentView.swift */; };
 		6EA0563A2971B7F700F39AAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EA056392971B7F700F39AAC /* Assets.xcassets */; };
 		6EA0563D2971B7F700F39AAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EA0563C2971B7F700F39AAC /* Preview Assets.xcassets */; };
+		6EA056442971BE8F00F39AAC /* ModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA056432971BE8F00F39AAC /* ModelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		6EA056372971B7F500F39AAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6EA056392971B7F700F39AAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6EA0563C2971B7F700F39AAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6EA056432971BE8F00F39AAC /* ModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				6EA056352971B7F500F39AAC /* GitPruebaApp.swift */,
 				6EA056372971B7F500F39AAC /* ContentView.swift */,
+				6EA056432971BE8F00F39AAC /* ModelView.swift */,
 				6EA056392971B7F700F39AAC /* Assets.xcassets */,
 				6EA0563B2971B7F700F39AAC /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EA056442971BE8F00F39AAC /* ModelView.swift in Sources */,
 				6EA056382971B7F500F39AAC /* ContentView.swift in Sources */,
 				6EA056362971B7F500F39AAC /* GitPruebaApp.swift in Sources */,
 			);

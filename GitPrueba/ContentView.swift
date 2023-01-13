@@ -16,8 +16,9 @@ struct ContentView: View {
                     self.isPresented = true
                 }
                 .sheet(isPresented: $isPresented) {
-                    Text("This is the modal screen")
+                    ModelView()
                 }
+                .navigationTitle("XCode and Git")
             }
         }
     }
