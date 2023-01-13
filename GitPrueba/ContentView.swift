@@ -8,13 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var isPresented = false 
+    @State private var isPresented = false
     var body: some View {
         VStack {
             NavigationView {
                 Button("Show Modal") {
                     self.isPresented = true
-                }
+                }.foregroundColor(.red)
                 .sheet(isPresented: $isPresented) {
                     ModelView()
                 }
