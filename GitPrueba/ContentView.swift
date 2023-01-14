@@ -9,15 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        
-            NavigationView {
+        NavigationView {
+            VStack {
+                Text("This is the Content View")
                 NavigationLink(destination: ModelView()) {
                     Text("Go next")
                 }.foregroundColor(.purple)
-                .navigationTitle("XCode and Git")
+                    .navigationTitle("XCode and Git")
             }
         }
-    
+    }
 }
 
 struct ContentView_Previews: PreviewProvider {
